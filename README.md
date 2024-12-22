@@ -1,0 +1,1 @@
+This repository demonstrates a common error when working with raw pointers and vectors in Rust. Modifying a vector's contents via a raw pointer after the vector has been reallocated (e.g., due to capacity changes) is a significant source of unexpected behavior. This example highlights the problem and showcases a safe alternative.
